@@ -17,6 +17,9 @@ Você pode se basear no arquivo .env.example fornecido no projeto.
 # Instale as dependências do servidor executando yarn ou npm
 
 # Execute as migrations para criar as tabelas no banco de dados:
+excluar o arquivo sqlite dentro da pasta tmp. 
+crie um novo com esse nome: 
+# db.sqlite3
 
 node ace migration:run
 
